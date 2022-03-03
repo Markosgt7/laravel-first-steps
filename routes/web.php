@@ -1,6 +1,6 @@
 <?php
 
-use App\Http\Controllers\TestController;
+use App\Http\Controllers\Dashboard\TestController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -29,4 +29,4 @@ Route::get('/custom', function () {
 
 //Route::get('/', [TestController::class, 'test']);
 
-Route::get('/',[TestController::class,'index']);
+Route::get('/', [TestController::class, 'index']);
