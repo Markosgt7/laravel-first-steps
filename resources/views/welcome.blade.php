@@ -9,9 +9,9 @@
 </head>
 <body>
     <h1>Bienvenidos</h1>
-    <a href="/contacto">Contacto</a>
-    <a href="{{route('contacto')}}">Contacto Ruta con nombre</a>
-
+    <p>Nombre->{{$user->name}}</p>
+   <p>Correo->{{$user->email}}</p>
+   <p>Fecha Creacion->{{$user->created_at}}</p>
 </body>
 
 </html>
