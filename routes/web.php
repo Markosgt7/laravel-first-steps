@@ -27,6 +27,6 @@ Route::get('/custom', function () {
     return view('custom', $data);
 }); */
 
-//Route::get('/', [TestController::class], 'test');
+//Route::get('/', [TestController::class, 'test']);
 
-Route::get('/', [TestController::class, 'test']);
+Route::get('/',[TestController::class,'index']);
