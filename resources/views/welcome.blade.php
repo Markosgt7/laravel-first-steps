@@ -9,9 +9,7 @@
 </head>
 <body>
     <h1>Bienvenidos</h1>
-    <p>Nombre->{{$user->name}}</p>
-   <p>Correo->{{$user->email}}</p>
-   <p>Fecha Creacion->{{$user->created_at}}</p>
+    
 </body>
 
 </html>
