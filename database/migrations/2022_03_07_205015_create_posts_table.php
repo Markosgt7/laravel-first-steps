@@ -22,7 +22,6 @@ class CreatePostsTable extends Migration
             $table->string('image');
             $table->enum('posted', ['yes', 'not'])->default('not');
             $table->timestamps();
-            //$table->unsignedBigInteger('category_id');
             $table->foreignId('category_id')->constrained()->onDelete('cascade');
         });
     }
