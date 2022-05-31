@@ -9,6 +9,7 @@
 </head>
 <body>
     <h1>Bienvenidos</h1>
+    <h2>Laravel</h2>
     
 </body>
 
