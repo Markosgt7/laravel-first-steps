@@ -10,7 +10,13 @@
 <body>
     <h1>Bienvenidos</h1>
     <h2>Laravel</h2>
-    
+    <a href="/custom">Custom</a><br>
+    <a href="{{ route('custom')}}">Custom(url con name)</a>
+    <br>
+    <p>Usuario</p>
+    <em> {{ $user->name}}</em>
+    <p>Correo</p>
+    <em> {{ $user->email}}</em>
 </body>
 
 </html>
