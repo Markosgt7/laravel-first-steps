@@ -15,12 +15,12 @@
         </label>
         <br>
         <br>
-        <label for="Slug">Slug
+        <label for="Slug">Slug-Modificado
             <input type="text" name="slug" >
         </label>
         <br>
         <br>
-        <label for="contenido">Contenido
+        <label for="content">Contenido
             <textarea name="content" cols="15" rows="3"></textarea>
         </label>
         <br>
